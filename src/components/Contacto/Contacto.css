@@ -1,0 +1,27 @@
+.imgContacto {
+    width: 25%;
+    height: 25%;
+    transition: width 0.3s ease, height 0.3s ease;
+    margin-bottom: 4rem;
+    
+}
+.textoContacto {
+    font-size: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+
+@media (max-width: 768px) {
+    .imgContacto {
+        width: 50%;
+        height: 50%;
+    }
+}
+
+
+@media (max-width: 600px) {
+    .imgContacto {
+        width: 60%;
+        height: 60%;
+    }
+}

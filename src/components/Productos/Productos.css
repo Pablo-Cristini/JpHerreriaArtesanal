@@ -1,0 +1,35 @@
+.Titulo {
+  text-align: center; 
+  margin: 20px 0; 
+}
+
+.linea {
+  height: 2px; 
+  background-color: black; 
+  width: 80%;
+  margin: 20px auto; 
+}
+
+
+@media (max-width: 760px) {
+  .Titulo {
+      font-size: 1.8rem; 
+      margin: 15px 0; 
+  }
+
+  .linea {
+      width: 90%; 
+  }
+}
+
+
+@media (max-width: 600px) {
+  .Titulo {
+      font-size: 1.5rem; 
+      margin: 10px 0;
+  }
+
+  .linea {
+      width: 95%; 
+  }
+}
